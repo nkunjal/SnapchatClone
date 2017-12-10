@@ -28,3 +28,14 @@ var allImages: [UIImage] = [UIImage(named: "dog1")!,
                             UIImage(named: "dog3")!,
                             UIImage(named: "meme3")!,
                             UIImage(named: "other3")!]
+struct Objects {
+    var name: String!
+    var objectValues : [String]!
+    var objectImage : [UIImage]!
+    var tags: [Int]!
+    var time: [NSDate]!
+
+}
+
+var itemsCollections = [Objects(name: threadNames[0], objectValues: [], objectImage: [], tags: [], time: []), Objects(name: threadNames[1], objectValues: [], objectImage: [], tags: [], time: []), Objects(name: threadNames[2], objectValues: [], objectImage: [], tags: [], time: [])]
+

@@ -20,10 +20,40 @@ class ImagePickerController: UIViewController, UICollectionViewDataSource, UICol
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
-    
 
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        // Get the new view controller using segue.destination.
+        // Pass the selected object to the new view controller.
+            guard let sectionViewController = segue.destination as? SectionChoiceController else {
+                return
+            }
+            guard let img = sender as? UIImage else {
+                return
+            }
+            sectionViewController.img = img
+            //sentView.sentImage.image = img
+        }
+    @IBAction func unwindToVC1(segue:UIStoryboardSegue) {
+        guard let sectionViewController = segue.source as? SectionChoiceController else {
+            return
+        }
+        //let dest = segue.destination as! CollectionOfSentController
+        if sectionViewController.tag == -1 {
+            return
+        }
+        else if sectionViewController.tag == 0 {
+            sectionViewController.section.text = ""
+        }
+        else if sectionViewController.tag == 1 {
+            sectionViewController.section.text = ""
+        }
+        else if sectionViewController.tag == 2 {
+            sectionViewController.section.text = ""
+        }
+    }
+    
     func selectImage(_ image: UIImage) {
-        //The image being selected is passed in as "image".
+        performSegue(withIdentifier: "choices", sender: image)
     }
     
     

@@ -17,6 +17,11 @@
 		4196F2DD1E650ECA009916E4 /* ImageFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4196F2DC1E650ECA009916E4 /* ImageFeed.swift */; };
 		4196F2E31E6514EE009916E4 /* ImagePickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4196F2E21E6514EE009916E4 /* ImagePickerController.swift */; };
 		4196F2ED1E6609B0009916E4 /* PostNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4196F2EC1E6609B0009916E4 /* PostNavigationController.swift */; };
+		730DE1A91F92C3A900A7531D /* SectionChoiceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730DE1A81F92C3A900A7531D /* SectionChoiceController.swift */; };
+		730DE1AB1F92C4E400A7531D /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730DE1AA1F92C4E400A7531D /* MyTableViewCell.swift */; };
+		730DE1AD1F92C5B800A7531D /* SnapchatHistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730DE1AC1F92C5B800A7531D /* SnapchatHistoryTableViewCell.swift */; };
+		730DE1AF1F92DD2B00A7531D /* CollectionOfSentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730DE1AE1F92DD2B00A7531D /* CollectionOfSentController.swift */; };
+		73904ED11F966D4C00932478 /* SentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73904ED01F966D4C00932478 /* SentViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +37,11 @@
 		4196F2DC1E650ECA009916E4 /* ImageFeed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageFeed.swift; sourceTree = "<group>"; };
 		4196F2E21E6514EE009916E4 /* ImagePickerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePickerController.swift; sourceTree = "<group>"; };
 		4196F2EC1E6609B0009916E4 /* PostNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostNavigationController.swift; sourceTree = "<group>"; };
+		730DE1A81F92C3A900A7531D /* SectionChoiceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionChoiceController.swift; sourceTree = "<group>"; };
+		730DE1AA1F92C4E400A7531D /* MyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
+		730DE1AC1F92C5B800A7531D /* SnapchatHistoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapchatHistoryTableViewCell.swift; sourceTree = "<group>"; };
+		730DE1AE1F92DD2B00A7531D /* CollectionOfSentController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionOfSentController.swift; sourceTree = "<group>"; };
+		73904ED01F966D4C00932478 /* SentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SentViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +87,11 @@
 				4196F2EC1E6609B0009916E4 /* PostNavigationController.swift */,
 				417986CE1E6657650050E1DF /* Cells */,
 				4196F2E21E6514EE009916E4 /* ImagePickerController.swift */,
+				730DE1A81F92C3A900A7531D /* SectionChoiceController.swift */,
+				730DE1AA1F92C4E400A7531D /* MyTableViewCell.swift */,
+				730DE1AC1F92C5B800A7531D /* SnapchatHistoryTableViewCell.swift */,
+				730DE1AE1F92DD2B00A7531D /* CollectionOfSentController.swift */,
+				73904ED01F966D4C00932478 /* SentViewController.swift */,
 			);
 			name = "View Controller";
 			sourceTree = "<group>";
@@ -188,6 +203,11 @@
 				4196F2E31E6514EE009916E4 /* ImagePickerController.swift in Sources */,
 				417986C51E6632C40050E1DF /* TabBarController.swift in Sources */,
 				417986C91E664AE40050E1DF /* ImageCollectionViewCell.swift in Sources */,
+				73904ED11F966D4C00932478 /* SentViewController.swift in Sources */,
+				730DE1AD1F92C5B800A7531D /* SnapchatHistoryTableViewCell.swift in Sources */,
+				730DE1A91F92C3A900A7531D /* SectionChoiceController.swift in Sources */,
+				730DE1AF1F92DD2B00A7531D /* CollectionOfSentController.swift in Sources */,
+				730DE1AB1F92C4E400A7531D /* MyTableViewCell.swift in Sources */,
 				4196F2DD1E650ECA009916E4 /* ImageFeed.swift in Sources */,
 				4196F2CB1E6509E8009916E4 /* AppDelegate.swift in Sources */,
 				4196F2ED1E6609B0009916E4 /* PostNavigationController.swift in Sources */,
